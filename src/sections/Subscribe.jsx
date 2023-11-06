@@ -6,7 +6,7 @@ const Subscribe = () => {
 			className='max-container flex lg:justify-between items-center flex-col gap-10'
 			id='contact us'
 		>
-			<h3 className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold'>
+			<h3 className='text-4xl leading-[68px] font-palanquin font-bold max-sm:text-center md:text-center'>
 				Sign Up for
 				<span className='text-coral-red'> Updates & </span>Newsletter
 			</h3>

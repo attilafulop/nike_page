@@ -7,13 +7,13 @@ const SuperQuality = () => {
 			id='about us'
 			className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
 		>
-			<div className='flex flex-col flex-1'>
-				<div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
+			<div className='flex flex-1 flex-col'>
+				<div className='relative xl:w-2/5 flex flex-col justify-center items-start max-sm:items-center max-sm:text-center w-full max-xl:padding-x pt-28'>
 					<h2 className='font-palanquin text-4xl capitalize font-bold lg:max-w-lg'>
 						We Provide You
-						<span className='text-coral-red'> Super</span>
-						<br />
-						<span className='text-coral-red inline-block mt-3 '>Quality</span>
+						<span className='text-coral-red'> Super </span>
+						<br className='max-sm:hidden' />
+						<span className='text-coral-red inline-block mt-3 '> Quality</span>
 						<span className='text-coral-red inline-block mt-3 '></span> Shoes
 					</h2>
 					<p className='mt-4 lg:max-w-lg info-text'>
@@ -24,18 +24,18 @@ const SuperQuality = () => {
 					<p className='mt-6 lg:max-w-lg info-text'>
 						Our dedication to detail and excellence ensures your satisfaction.
 					</p>
-					<div className='mt-11'>
+					<div className='mt-11 mb-11'>
 						<Button label='View Details' />
 					</div>
-					<div className='flex-1 flex justify-center items-end '>
-						<img
-							src={shoe8}
-							alt='shoe8'
-							width={570}
-							height={522}
-							className='object-contain'
-						/>
-					</div>
+				</div>
+				<div className='flex-1 flex justify-center items-end'>
+					<img
+						src={shoe8}
+						alt='shoe8'
+						width={570}
+						height={522}
+						className='object-contain'
+					/>
 				</div>
 			</div>
 		</section>
